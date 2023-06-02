@@ -93,7 +93,6 @@ class UserRegister extends Component {
       return <Redirect to="/" />;
     }
 
-
     return (
       <Fragment>
         <div className={`${classes["auth-wrapper"]}`}>
@@ -101,7 +100,7 @@ class UserRegister extends Component {
             <Row>
               <Col className="mx-auto py-5" xl={8} lg={8} md={8} sm={12}>
                 <h4 className={`${classes["auth-header-title"]}`}>
-                  Welcome to Lazapee! Please Register.
+                  Welcome to electro Store! Please Register.
                 </h4>
                 <h6 className={`${classes["auth-subheader-title"]}`}>
                   Already member?{" "}

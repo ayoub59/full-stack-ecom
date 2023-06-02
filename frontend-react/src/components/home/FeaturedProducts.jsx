@@ -28,7 +28,6 @@ class FeaturedProducts extends Component {
       // Handle error if needed
     }
   }
-  
 
   render() {
     const FeaturedList = this.state.ProductData;
@@ -114,7 +113,7 @@ class FeaturedProducts extends Component {
       <Fragment>
         <Container>
           {/* Start Three Section Button */}
-          <div className="my-4">
+          {/* <div className="my-4">
             <Row className="px-1">
               <Col className="mb-1 px-2" xl={4} lg={6} md={6} sm={6} xs={12}>
                 <button className={`${classes["three-section-button"]} w-100`}>
@@ -150,7 +149,7 @@ class FeaturedProducts extends Component {
                 </button>
               </Col>
             </Row>
-          </div>
+          </div> */}
           {/* End Three Section Button */}
 
           <h2 className="section-header">Flash Sale</h2>

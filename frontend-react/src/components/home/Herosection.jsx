@@ -28,7 +28,7 @@ class Herosection extends Component {
     } catch (error) {
       // Handle error if needed
     }
-  
+
     try {
       const sliderResponse = await axios.get(AppURL.AllSlider);
       this.setState({
@@ -40,7 +40,6 @@ class Herosection extends Component {
       // Handle error if needed
     }
   }
-  
 
   render() {
     return (

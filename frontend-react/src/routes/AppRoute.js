@@ -8,7 +8,7 @@ import PrivacyPage from "../pages/PrivacyPage";
 import ProductDetailsPage from "../pages/ProductDetailsPage";
 import NotFoundPage from "../pages/NotFoundPage";
 import NotificationPage from "../pages/NotificationPage";
-import FavoritePage from "../pages/FavoritePage"; 
+import FavoritePage from "../pages/FavoritePage";
 import CartPage from "../pages/CartPage";
 import ProductCategoryPage from "../pages/ProductCategoryPage";
 import ProductSubCategoryPage from "../pages/ProductSubCategoryPage";
@@ -35,7 +35,7 @@ class AppRoute extends Component {
       .then((response) => {
         this.setUser(response.data);
       })
-      .catch((error) => {});
+      .catch((error) => { });
   }
 
   setUser = (user) => {
@@ -113,6 +113,7 @@ class AppRoute extends Component {
             path="/privacy"
             render={(props) => <PrivacyPage {...props} key={Date.now()} />}
           />
+          {/* product detail 👇 */}
           <Route
             path="/productdetails/:code"
             render={(props) => (

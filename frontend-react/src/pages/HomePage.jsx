@@ -22,13 +22,14 @@ class HomePage extends Component {
   render() {
     return (
       <Fragment>
-        <Campaign />
+        {/* <Campaign /> */}
         <NavMenuDesktop />
         <Herosection />
         <FeaturedProducts />
         <Categories />
         <NewArrival />
-        <Collection />
+        {/* <Collection /> */}
+        {/* edited 👇 */}
         <FooterDesktop />
       </Fragment>
     );

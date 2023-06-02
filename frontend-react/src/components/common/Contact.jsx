@@ -142,7 +142,7 @@ class Contact extends Component {
                       <i
                         className={`${classes["custom-icon-phone"]} fas fa-phone`}
                       ></i>
-                      Call Lazapee
+                      Call electro Store
                     </span>
                     <p className={`${classes["card-body-text"]} mt-1`}>
                       (02)7795 8900
@@ -159,7 +159,7 @@ class Contact extends Component {
                       <i
                         className={`${classes["custom-icon"]} fab fa-facebook`}
                       ></i>
-                      Lazapee Peers PH
+                      electro Store Peers PH
                     </span>
                     <p className={`${classes["card-body-text"]} mt-1`}>
                       Lazada Philippines official online buyer community
@@ -221,13 +221,14 @@ class Contact extends Component {
               </Col>
               <Col className="mb-4">
                 <iframe
-                  title="Lazapee Location Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7726.506553389561!2d121.42226903665936!3d14.470140574603013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ede77c57074d%3A0xcde0b295efdad3a3!2sMunicipal%20Hall%20of%20Santa%20Maria%2C%20Laguna!5e0!3m2!1sen!2sph!4v1653659092336!5m2!1sen!2sph"
+                  title="electro Store Location Map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105860.772511985!2d-6.909766097324229!3d33.98870277543478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76bdf64606acf%3A0x7a6bcb808f0cb28f!2sMarjane%20market!5e0!3m2!1sen!2sma!4v1685474112305!5m2!1sen!2sma"
                   width="100%"
                   height="100%"
                   styles="border:0;"
                   loading="lazy"
                 ></iframe>
+                {/* <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
               </Col>
             </Row>
 

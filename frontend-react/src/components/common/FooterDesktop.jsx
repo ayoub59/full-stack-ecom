@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import AppURL from "../../api/AppURL";
 import ReactHtmlParser from "react-html-parser";
+import logo from "../../assets/images/logo/ecom logo.png";
 
 class FooterDesktop extends Component {
   constructor() {
@@ -44,13 +45,12 @@ class FooterDesktop extends Component {
       // Handle error if needed
     }
   }
-  
 
   render() {
     return (
       <Fragment>
         {/* Start Footer One */}
-        <div className={`${classes["footer-one"]}`}>
+        {/* <div className={`${classes["footer-one"]}`}>
           <Container>
             <Row>
               <Col className="mt-4" xl={6} lg={6} md={12}>
@@ -174,11 +174,11 @@ class FooterDesktop extends Component {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
         {/* End Footer One */}
 
         {/* Start Footer Two */}
-        <div className={`${classes["footer-two"]}`}>
+        {/* <div className={`${classes["footer-two"]}`}>
           <Container>
             <Row>
               <Col className="mt-5" xl={3} lg={3} md={6} sm={12}>
@@ -371,72 +371,13 @@ class FooterDesktop extends Component {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
         {/* End Footer Two */}
 
         {/* Start Footer Three */}
         <div className={`${classes["footer-three"]}`}>
           <Container className={`${classes["responsive-footer"]}`}>
             <Row>
-              <Col className="mt-5" xl={5} lg={5} md={12} sm={12}>
-                {/* Start Skeletal Loading Div */}
-                <div className={this.state.loaderDiv}>
-                  <div className="ph-col-12 mb-2">
-                    <div className="ph-row">
-                      <div className="ph-col-6"></div>
-                      <div className="ph-col-6 empty"></div>
-                    </div>
-                  </div>
-                </div>
-                {/* End Skeletal Loading Div */}
-
-                <h4
-                  className={`${classes["footer-three-title"]} ${this.state.mainDiv}`}
-                >
-                  {ReactHtmlParser(this.state.address)}
-                </h4>
-                {/* Start Map Grid */}
-                <img
-                  className={`${classes["footer-icon"]} img-fluid`}
-                  src={require("../../assets/images/common/footer/map/indonesia.png")}
-                  alt="indonesia.png"
-                  width="30px"
-                />
-                <img
-                  className={`${classes["footer-icon"]} img-fluid`}
-                  src={require("../../assets/images/common/footer/map/malaysia.png")}
-                  alt="malaysia.png"
-                  width="30px"
-                />
-                <img
-                  className={`${classes["footer-icon"]} img-fluid`}
-                  src={require("../../assets/images/common/footer/map/philippines.png")}
-                  alt="philippines.png"
-                  width="30px"
-                />
-                <img
-                  className={`${classes["footer-icon"]} img-fluid`}
-                  src={require("../../assets/images/common/footer/map/singapore.png")}
-                  alt="singapore.png"
-                  width="30px"
-                />
-                <img
-                  className={`${classes["footer-icon"]} img-fluid`}
-                  src={require("../../assets/images/common/footer/map/thailand.png")}
-                  alt="thailand.png"
-                  width="30px"
-                />
-                <img
-                  className={`${classes["footer-icon"]} img-fluid`}
-                  src={require("../../assets/images/common/footer/map/vietnam.png")}
-                  alt="vietnam.png"
-                  width="30px"
-                />
-                {/* Google Translate Api */}
-                <div className="mt-3" id="google_translate_element"></div>
-
-                {/* End Map Grid */}
-              </Col>
               <Col className="mt-5" xl={7} lg={7} md={12} sm={12}>
                 <Row>
                   <Col className="mb-4" xl={6} lg={6} md={12} sm={12}>
@@ -518,7 +459,7 @@ class FooterDesktop extends Component {
                     >
                       <img
                         className={`${classes["responsive-lazada-icon"]} img-fluid me-1`}
-                        src={require("../../assets/images/common/footer/lazada-icon.png")}
+                        src={logo}
                         alt="lazada-icon.png"
                         width="60px"
                       />

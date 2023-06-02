@@ -15,6 +15,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AppURL from "../../api/AppURL";
 import axios from "axios";
+import logo from "../../assets/images/logo/ecom logo.png";
 
 class NavMenuDesktop extends Component {
   constructor() {
@@ -154,7 +155,7 @@ class NavMenuDesktop extends Component {
                     save more on app
                   </Link>
                   <Link className={`${classes["second-link"]}`} to="/">
-                    sell on lazapee
+                    sell on electro Store
                   </Link>
                   <Link className={`${classes["mini-nav-link"]}`} to="/contact">
                     customer care
@@ -172,11 +173,7 @@ class NavMenuDesktop extends Component {
                 <Container className="px-0" fluid>
                   <Navbar.Brand className={`${classes["navbar-logo"]} mt-2`}>
                     <Link to="/">
-                      <img
-                        src={require("../../assets/images/common/header/lazapee.png")}
-                        width="125"
-                        alt="lazapee"
-                      />
+                      <img src={logo} width="125" alt="electro Storeee" />
                     </Link>
                   </Navbar.Brand>
                   <Navbar.Toggle aria-controls="navbarScroll" />
@@ -190,7 +187,7 @@ class NavMenuDesktop extends Component {
                       <InputGroup>
                         <FormControl
                           type="text"
-                          placeholder="Search in Lazapee"
+                          placeholder="Search in electro Store"
                           className={`${classes["search-input"]}`}
                           aria-label="Search"
                           aria-describedby="basic-addon1"
@@ -207,14 +204,14 @@ class NavMenuDesktop extends Component {
                       </InputGroup>
                     </Form>
                     {addToCartButton}
-                    <div className={`${classes["nav-cash-in"]}`}>
+                    {/* <div className={`${classes["nav-cash-in"]}`}>
                       <img
                         className="img-fluid"
                         src={require("../../assets/images/common/header/cash-in.png")}
                         width="187px"
                         alt="cash-in"
                       />
-                    </div>
+                    </div> */}
                   </Navbar.Collapse>
                 </Container>
               </Navbar>

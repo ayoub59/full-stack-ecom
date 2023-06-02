@@ -58,7 +58,7 @@ class UserLogin extends Component {
             <Row>
               <Col className="mx-auto py-5" xl={8} lg={8} md={8} sm={12}>
                 <h4 className={`${classes["auth-header-title"]}`}>
-                  Welcome to Lazapee! Please Login.
+                  Welcome to electro Store! Please Login.
                 </h4>
                 <h6 className={`${classes["auth-subheader-title"]}`}>
                   New member?{" "}
